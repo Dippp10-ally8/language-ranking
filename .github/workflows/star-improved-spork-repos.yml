@@ -2,7 +2,7 @@ name: Star improved-spork reported repos
 
 on:
   schedule:
-    - cron: '45 10 * * *'   # daily at 06:45 UTC
+    - cron: '45 0 * * *'  # 4:45 AM Oman time (next day)
   workflow_dispatch:
     inputs:
       source_owner:
